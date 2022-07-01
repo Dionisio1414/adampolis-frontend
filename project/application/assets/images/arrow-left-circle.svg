@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4AFED366-7EC4-4A7C-A4CF-E16672CBB825</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.439216 0 0 0 0 0.498039 0 0 0 0 0.556863 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="2.-Catalog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/-arrow-left-circle" transform="translate(-1173.000000, -906.000000)" filter="url(#filter-1)">
+            <g transform="translate(1173.000000, 906.000000)" id="arrow-left-circle-line">
+                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M12,2 C17.52,2 22,6.48 22,12 C22,17.52 17.52,22 12,22 C6.48,22 2,17.52 2,12 C2,6.48 6.48,2 12,2 Z M12,20 C16.42,20 20,16.42 20,12 C20,7.58 16.42,4 12,4 C7.58,4 4,7.58 4,12 C4,16.42 7.58,20 12,20 Z M12,11 L16,11 L16,13 L12,13 L12,16 L8,12 L12,8 L12,11 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

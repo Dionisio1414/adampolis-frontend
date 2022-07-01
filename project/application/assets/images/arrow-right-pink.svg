@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="10px" viewBox="0 0 6 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>9C5A5AF8-3FA2-4583-B1CD-E954C43CF460</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.898039 0 0 0 0 0.003922 0 0 0 0 0.270588 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1.-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="user-dropdown" transform="translate(-1554.000000, -1977.000000)">
+            <g id="icons/-arrow-right-small" transform="translate(1464.000000, 1970.000000)" filter="url(#filter-1)">
+                <g transform="translate(90.000000, 7.000000)" id="arrow-drop-right-line" fill="#000000" fill-rule="nonzero">
+                    <polygon id="Path" points="3.172 5 0.343 2.172 1.757 0.757 6 5 1.757 9.243 0.343 7.828"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

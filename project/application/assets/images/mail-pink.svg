@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>70C6163E-05CF-4BAE-9878-D70DCF9DA84C</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.898039 0 0 0 0 0.003922 0 0 0 0 0.270588 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1.-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-guest" transform="translate(-777.000000, -95.000000)">
+            <g id="header/-desktop/-guest" transform="translate(0.000000, 32.000000)">
+                <g id="icons/-mail" transform="translate(777.000000, 63.000000)" filter="url(#filter-1)">
+                    <g id="mail-line">
+                        <polygon id="Path" points="0 0 20 0 20 20 0 20"></polygon>
+                        <path d="M2.5,2.5 L17.5,2.5 C17.9602373,2.5 18.3333333,2.87309604 18.3333333,3.33333333 L18.3333333,16.6666667 C18.3333333,17.126904 17.9602373,17.5 17.5,17.5 L2.5,17.5 C2.03976271,17.5 1.66666667,17.126904 1.66666667,16.6666667 L1.66666667,3.33333333 C1.66666667,2.87309604 2.03976271,2.5 2.5,2.5 Z M16.6666667,6.03166667 L10.06,11.9483333 L3.33333333,6.01333333 L3.33333333,15.8333333 L16.6666667,15.8333333 L16.6666667,6.03166667 Z M3.75916667,4.16666667 L10.0508333,9.71833333 L16.2516667,4.16666667 L3.75916667,4.16666667 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

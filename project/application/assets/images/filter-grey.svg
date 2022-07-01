@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>EA65E34B-59F4-4E8E-B0B5-3B679CC686CB</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.796078 0 0 0 0 0.815686 0 0 0 0 0.847059 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="17.-mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/-filter" transform="translate(-238.000000, -68.000000)" filter="url(#filter-1)">
+            <g transform="translate(238.000000, 68.000000)" id="filter-line">
+                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M21,4 L21,6 L20,6 L15,13.5 L15,22 L9,22 L9,13.5 L4,6 L3,6 L3,4 L21,4 Z M6.404,6 L11,12.894 L11,20 L13,20 L13,12.894 L17.596,6 L6.404,6 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

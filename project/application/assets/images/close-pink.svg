@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1FD200DC-0253-4A02-A121-0CEE6E84B445</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.898039 0 0 0 0 0.003922 0 0 0 0 0.270588 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="2.-Catalog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/-close-copy-3" transform="translate(-1522.000000, -324.000000)" filter="url(#filter-1)">
+            <g transform="translate(1522.000000, 324.000000)" id="close-fill">
+                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="12 10.586 16.95 5.636 18.364 7.05 13.414 12 18.364 16.95 16.95 18.364 12 13.414 7.05 18.364 5.636 16.95 10.586 12 5.636 7.05 7.05 5.636"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

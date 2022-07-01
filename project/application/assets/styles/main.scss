@@ -1,0 +1,180 @@
+@import './fonts';
+@import './variables';
+@import './buttons';
+@import './icons';
+@import './spaces';
+@import './form';
+@import './display';
+@import './animations';
+@import './sizes';
+@import './layout';
+@import './typography';
+@import './blocks/dropdown';
+@import './blocks/block';
+@import './blocks/modal';
+@import './blocks/modal-primary';
+@import './blocks/skeleton';
+@import './blocks/cards.scss';
+@import './blocks/table.scss';
+@import './blocks/pagination.scss';
+@import './blocks/breadcrumbs.scss';
+@import './blocks/tooltip.scss';
+@import './blocks/flex.scss';
+@import './blocks/product.scss';
+@import './blocks/badges.scss';
+@import './blocks/spinner.scss';
+@import './plugins/vue-js-modal';
+@import './plugins/vue-multiselect';
+@import './plugins/vue-awesome-swiper';
+@import './plugins/vue-range-component-fixed';
+@import './plugins/vue-notification';
+@import './plugins/vue2-google-maps.scss';
+@import './plugins/vue-autosuggest.scss';
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    outline: none !important;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+}
+input {
+    appearance: none;
+    &:placeholder-shown {
+        text-overflow: ellipsis;
+    }
+}
+
+html,
+body,
+#__nuxt,
+#__layout {
+    height: 100%;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+body {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 18px;
+    background: $color-background;
+    color: $color-black;
+    overflow-wrap: break-word;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    &.body--disabled-scroll {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: #{$container-width + ($grid-gutter * 2)};
+    padding-left: $grid-mob-gutter;
+    padding-right: $grid-mob-gutter;
+
+    &--md-padding {
+        padding-left: 0;
+        padding-right: 0;
+
+        @media (min-width: $breakpoint-lg) {
+            padding-left: $grid-gutter;
+            padding-right: $grid-gutter;
+        }
+    }
+
+    @media (min-width: $breakpoint-lg) {
+        padding-left: $grid-gutter;
+        padding-right: $grid-gutter;
+    }
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+.flex-hidden {
+    flex: initial;
+    flex-direction: column;
+    color: transparent;
+    visibility: hidden;
+    height: 0;
+    pointer-events: none;
+}
+
+.truncate-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.overflow {
+    &-hidden {
+        overflow: hidden;
+    }
+}
+
+.p-relative {
+    position: relative;
+}
+
+.no-max-height {
+    max-height: unset !important;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    &--width {
+        width: 100%;
+    }
+    &--height {
+        height: 100%;
+    }
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1;
+    margin: 0;
+}
+
+.text-right {
+    text-align: right;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>67BF569A-E47D-45DC-8F8E-29E9B1BE3D2C</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.439216 0 0 0 0 0.498039 0 0 0 0 0.556863 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="17.-mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-with-filter" transform="translate(-263.000000, -251.000000)">
+            <g id="Group" transform="translate(0.000000, 60.000000)">
+                <g id="icons/-arrow/-drop-down-s" transform="translate(25.000000, 158.000000)" filter="url(#filter-1)">
+                    <g transform="translate(238.000000, 33.000000)">
+                        <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="12 15 7.757 10.757 9.172 9.343 12 12.172 14.828 9.343 16.243 10.757"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6926A22F-89BD-4BC2-935B-93544A8C1541</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.611765 0 0 0 0 0.650980 0 0 0 0 0.701961 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.611765 0 0 0 0 0.650980 0 0 0 0 0.701961 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1.-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-user" transform="translate(-1168.000000, -118.000000)">
+            <g id="icons/-user" transform="translate(0.000000, 32.000000)" filter="url(#filter-1)">
+                <g transform="translate(1168.000000, 86.000000)" filter="url(#filter-2)" id="user-line">
+                    <g>
+                        <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                        <path d="M4,22 C4,17.581722 7.581722,14 12,14 C16.418278,14 20,17.581722 20,22 L18,22 C18,18.6862915 15.3137085,16 12,16 C8.6862915,16 6,18.6862915 6,22 L4,22 L4,22 Z M12,13 C8.685,13 6,10.315 6,7 C6,3.685 8.685,1 12,1 C15.315,1 18,3.685 18,7 C18,10.315 15.315,13 12,13 Z M12,11 C14.21,11 16,9.21 16,7 C16,4.79 14.21,3 12,3 C9.79,3 8,4.79 8,7 C8,9.21 9.79,11 12,11 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

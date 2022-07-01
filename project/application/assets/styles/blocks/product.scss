@@ -1,0 +1,19 @@
+.product {
+    &__price {
+        color: $color-pink;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 33px;
+
+        &--old {
+            color: $color-dark-blue;
+            text-decoration: line-through;
+        }
+
+        &--small {
+            font-size: 20px;
+            line-height: 27px;
+        }
+    }
+}

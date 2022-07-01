@@ -1,0 +1,95 @@
+@import '../variables.scss';
+
+@mixin skeleton-light {
+    background: $color-white;
+}
+
+@mixin skeleton-light-after {
+    background-image: linear-gradient(
+        90deg,
+        rgba(234, 238, 241, 0) 0,
+        rgba(234, 238, 241, 0.2) 20%,
+        rgba(234, 238, 241, 0.5) 60%,
+        rgba(234, 238, 241, 0)
+    );
+}
+
+.skeleton {
+    &__block {
+        display: inline-block;
+        min-height: 1em;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        background-color: $color-background;
+        border-radius: 4px;
+
+        &--light {
+            @include skeleton-light;
+
+            &:after {
+                @include skeleton-light-after;
+            }
+        }
+
+        &:after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            transform: translateX(-100%);
+            background-image: linear-gradient(
+                90deg,
+                rgba(255, 255, 255, 0) 0,
+                rgba(255, 255, 255, 0.12) 20%,
+                rgba(255, 255, 255, 0.35) 60%,
+                rgba(255, 255, 255, 0)
+            );
+            animation: shimmer 1.5s infinite;
+            content: '';
+        }
+    }
+
+    &__button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: $color-background !important;
+        border: 1px solid $color-background !important;
+        height: 40px;
+
+        &:hover,
+        &:focus,
+        &:active {
+            background: $color-background !important;
+            border: 1px solid $color-background !important;
+        }
+    }
+
+    &__circle {
+        border-radius: 50%;
+        width: 1em;
+        height: 1em;
+    }
+
+    &__list-item {
+        display: flex;
+        align-items: center;
+    }
+
+    &__list-item &__block {
+        flex: 1 1 auto;
+    }
+
+    &__list-item &__circle {
+        flex: 0 0 auto;
+        margin-right: 1em;
+    }
+}
+
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}

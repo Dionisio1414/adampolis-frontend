@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>23642959-234C-4B35-B155-5DD4D24D3B27</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.145098 0 0 0 0 0.227451 0 0 0 0 0.286275 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="2.-Catalog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="selected-vehicle" transform="translate(-434.000000, -1215.000000)">
+            <g id="Group" transform="translate(360.000000, 389.000000)">
+                <g id="icons/-delete" transform="translate(74.000000, 826.000000)" filter="url(#filter-1)">
+                    <g id="delete-bin-line">
+                        <polygon id="Path" points="0 0 20 0 20 20 0 20"></polygon>
+                        <path d="M14.1666667,5 L18.3333333,5 L18.3333333,6.66666667 L16.6666667,6.66666667 L16.6666667,17.5 C16.6666667,17.9602373 16.2935706,18.3333333 15.8333333,18.3333333 L4.16666667,18.3333333 C3.70642938,18.3333333 3.33333333,17.9602373 3.33333333,17.5 L3.33333333,6.66666667 L1.66666667,6.66666667 L1.66666667,5 L5.83333333,5 L5.83333333,2.5 C5.83333333,2.03976271 6.20642938,1.66666667 6.66666667,1.66666667 L13.3333333,1.66666667 C13.7935706,1.66666667 14.1666667,2.03976271 14.1666667,2.5 L14.1666667,5 Z M15,6.66666667 L5,6.66666667 L5,16.6666667 L15,16.6666667 L15,6.66666667 Z M7.5,9.16666667 L9.16666667,9.16666667 L9.16666667,14.1666667 L7.5,14.1666667 L7.5,9.16666667 Z M10.8333333,9.16666667 L12.5,9.16666667 L12.5,14.1666667 L10.8333333,14.1666667 L10.8333333,9.16666667 Z M7.5,3.33333333 L7.5,5 L12.5,5 L12.5,3.33333333 L7.5,3.33333333 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

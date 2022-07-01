@@ -1,0 +1,517 @@
+.icon {
+    width: 1em;
+    height: 1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    position: relative;
+    transform: scale(0.25);
+    transform-origin: 0 0;
+
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 400%;
+        height: 400%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    &--rotate {
+        @extend .icon;
+        &::before {
+            transform: rotate(180deg);
+        }
+    }
+
+    &--s {
+        width: 24px;
+        height: 24px;
+    }
+
+    &--store {
+        @extend .icon;
+        &::before {
+            background-image: url('../images/store.svg');
+        } 
+    }
+
+    &--services {
+        @extend .icon;
+        &::before {
+            background-image: url('../images/services.svg');
+        }  
+    }
+
+    &--info {
+        &-grey {
+            @extend .icon;
+            &::before {
+                background-image: url('../images/info-grey.svg');
+            } 
+        }
+    }
+
+    &--document {
+        @extend .icon;
+        &::before {
+            background-image: url('../images/document.svg');
+        }
+    }
+
+    &--remove {
+        @extend .icon;
+        &::before {
+            background-image: url('../images/close-red.svg');
+        }
+    }
+
+    &-password {
+        &-hidden {
+            &::before {
+                background-image: url('../images/eye-on.svg');
+            }
+        }
+        &-visible {
+            &::before {
+                background-image: url('../images/eye-off.svg');
+            }
+        }
+    }
+
+    &-arr {
+        &--left {
+            &::before {
+                background-image: url('../images/arrow-left-black.svg');
+            } 
+        }
+        &-left {
+            &--white {
+                &::before {
+                    background-image: url('../images/arrow-left-white.svg');
+                } 
+            }
+        }
+    }
+
+    &--arrow {
+        &-upper {
+            &::before {
+                background-image: url('../images/arrow-up.svg');
+            }
+        }
+
+        &-down {
+            &:before {
+                background-image: url('../images/arrow-down.svg');
+            }
+
+            &-blue {
+                &:before {
+                    background-image: url('../images/arrow-down-blue.svg');
+                }
+            }
+
+            &-grey {
+                &:before {
+                    background-image: url('../images/arrow-down-grey.svg');
+                }
+            }
+            &-black {
+                &:before {
+                    background-image: url('../images/arrow-down-black.svg');
+                }
+            }
+        }
+
+        &-left,
+        &-left-grey,
+        &-left-white {
+            &:before {
+                transform: rotate(90deg);
+            }
+        }
+
+        &-left {
+            &:before {
+                background-image: url('../images/arrow-down.svg');
+            }
+
+            &-grey {
+                &:before {
+                    background-image: url('../images/arrow-down-grey.svg');
+                }
+            }
+
+            &-white {
+                &:before {
+                    background-image: url('../images/arrow-down-white.svg');
+                }
+            }
+
+            &-black {
+                &::before {
+                    background-image: url('../images/arrow-left-black.svg');
+                }
+            }
+        }
+
+        &-right,
+        &-right-grey,
+        &-right-white {
+            &:before {
+                transform: rotate(270deg);
+            }
+        }
+
+        &-right-pink {
+            &::before {
+                transform: rotate(0deg);
+            }
+        }
+
+        &-right {
+            &:before {
+                background-image: url('../images/arrow-down.svg');
+            }
+
+            &-grey {
+                &:before {
+                    background-image: url('../images/arrow-down-grey.svg');
+                }
+            }
+
+            &-white {
+                &:before {
+                    background-image: url('../images/arrow-down-white.svg');
+                }
+            }
+            &-pink {
+                &:before {
+                    background-image: url('../images/arrow-right-pink.svg');
+                }
+            }
+        }
+
+        &-up {
+            &:before {
+                background-image: url('../images/arrow-down.svg');
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    &--phone {
+        &:before {
+            background-image: url('../images/phone.svg');
+        }
+        &-pink {
+            &:before {
+                background-image: url('../images/phone-pink.svg');
+            }
+        }
+        &-white {
+            &:before {
+                background-image: url('../images/phone-white.svg');
+            }
+        }
+
+        &-black {
+            &:before {
+                background-image: url('../images/phone-black.svg');
+            }
+        }
+    }
+
+    &--time {
+        &:before {
+            background-image: url('../images/time.svg');
+        }
+
+        &-pink {
+            &:before {
+                background-image: url('../images/time-pink.svg');
+            }
+        }
+    }
+
+    &--mail {
+        &:before {
+            background-image: url('../images/mail.svg');
+        }
+
+        &-dark {
+            &:before {
+                background-image: url('../images/mail-dark.svg');
+            }   
+        }
+
+        &-pink {
+            &:before {
+                background-image: url('../images/mail-pink.svg');
+            }
+        }
+    }
+
+    &--facebook {
+        &:before {
+            background-image: url('../images/facebook.svg');
+        }
+    }
+
+    &--instagram {
+        &:before {
+            background-image: url('../images/instagram.svg');
+        }
+    }
+
+    &--quote-up {
+        &:before {
+            background-image: url('../images/quote-up.svg');
+        }
+    }
+
+    &--star {
+        &:before {
+            background-image: url('../images/star-line.svg');
+        }
+
+        &--fill {
+            &:before {
+                background-image: url('../images/star-fill.svg');
+            }
+        }
+    }
+
+    &--sort {
+        &:before {
+            background-image: url('../images/sort.svg');
+        }
+    }
+
+    &--plus {
+        &:before {
+            background-image: url('../images/plus.svg');
+        }
+    }
+
+    &--minus {
+        &:before {
+            background-image: url('../images/minus.svg');
+        }
+    }
+
+    &--favourite {
+        &:before {
+            background-image: url('../images/favourite-color.svg');
+        }
+
+        &-grey {
+            &:before {
+                background-image: url('../images/favourite-grey.svg');
+            }
+        }
+
+        &-active {
+            &::before {
+                background-image: url('../images/favourite-filled.svg');
+            }
+        }
+    }
+
+    &--shopping-cart {
+        &:before {
+            background-image: url('../images/shopping-cart.svg');
+        }
+    }
+
+    &--user {
+        &:before {
+            background-image: url('../images/user.svg');
+        }
+    }
+
+    &--menu-catalog {
+        &:before {
+            background-image: url('../images/menu-catalog.svg');
+        }
+    }
+
+    &--search {
+        &:before {
+            background-image: url('../images/search.svg');
+        }
+    }
+
+    &--catalog {
+        &:before {
+            background-image: url('../images/catalog.svg');
+        }
+    }
+
+    &--logout {
+        &:before {
+            background-image: url('../images/logout.svg');
+        }
+    }
+
+    &--filter {
+        &-grey {
+            &:before {
+                background-image: url('../images/filter-grey.svg');
+            }
+        }
+
+        &-black {
+            &:before {
+                background-image: url('../images/filter-black.svg');
+            }
+        }
+    }
+
+    &--delete {
+        &::before {
+            background-image: url('../images/delete.svg');
+        }
+    }
+
+    &--close {
+        &::before {
+            background-image: url('../images/close.svg');
+        }
+
+        &-pink {
+            &::before {
+                background-image: url('../images/close-pink.svg');
+            }
+        }
+
+        &-white {
+            &::before {
+                background-image: url('../images/close-white.svg');
+            }
+        }
+
+        &-checkout {
+            &::before {
+                background-image: url('../images/close-checkout.svg');
+            }
+        }
+    }
+
+    &--waranty {
+        &::before {
+            background-image: url('../images/waranty.svg');
+        }
+
+        &-grey {
+            &::before {
+                background-image: url('../images/waranty-grey.svg');
+            }
+        }
+    }
+
+    &--sale {
+        &::before {
+            background-image: url('../images/sale.svg');
+        }
+    }
+
+    &--deposit {
+        &-grey {
+            &::before {
+                background-image: url('../images/deposit-grey.svg');
+            }
+        }
+    }
+
+    &--items {
+        &-grey {
+            &::before {
+                background-image: url('../images/items-grey.svg');
+            }
+        }
+    }
+
+    &--warning {
+        &::before {
+            background-image: url('../images/warning-grey.svg');
+        }
+        &-pink {
+            &::before {
+                background-image: url('../images/warning.svg');
+            }
+        }
+    }
+
+    &--check {
+        &::before {
+            background-image: url('../images/check.svg');
+        }
+        &-mobile {
+            &::before {
+                background-image: url('../images/check-mobile.svg');
+            }
+        }
+    }
+
+    &--download {
+        &-pink {
+            &::before {
+                background-image: url('../images/download-pink.svg');
+            }
+        }
+    }
+
+    &--address {
+        &-grey {
+            &::before {
+                background-image: url('../images/address-grey.svg');
+            } 
+        }
+    }
+
+    &--print {
+        &::before {
+            background-image: url('../images/print.svg');
+        }
+    }
+}
+
+.icon-flag {
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.3333333333em;
+    line-height: 1em;
+    &:before {
+        content: ' ';
+    }
+
+    &--squared {
+        width: 1em;
+    }
+
+    &--lt {
+        background-image: url('../images/lt.svg');
+    }
+
+    &--ru {
+        background-image: url('../images/ru.svg');
+    }
+
+    &--en {
+        background-image: url('../images/en.svg');
+    }
+
+    &--background {
+        background-size: contain;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+}

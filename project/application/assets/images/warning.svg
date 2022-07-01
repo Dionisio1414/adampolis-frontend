@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E0E09B31-E350-4B18-826B-ABA8040372B9</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.898039 0 0 0 0 0.003922 0 0 0 0 0.270588 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="6.-Checkout---payment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/-warning" transform="translate(-685.000000, -442.000000)" filter="url(#filter-1)">
+            <g transform="translate(685.000000, 442.000000)" id="error-warning-fill">
+                <polygon id="Path" points="0 0 20 0 20 20 0 20"></polygon>
+                <path d="M10,18.3333333 C5.3975,18.3333333 1.66666667,14.6025 1.66666667,10 C1.66666667,5.3975 5.3975,1.66666667 10,1.66666667 C14.6025,1.66666667 18.3333333,5.3975 18.3333333,10 C18.3333333,14.6025 14.6025,18.3333333 10,18.3333333 Z M9.16666667,12.5 L9.16666667,14.1666667 L10.8333333,14.1666667 L10.8333333,12.5 L9.16666667,12.5 Z M9.16666667,5.83333333 L9.16666667,10.8333333 L10.8333333,10.8333333 L10.8333333,5.83333333 L9.16666667,5.83333333 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

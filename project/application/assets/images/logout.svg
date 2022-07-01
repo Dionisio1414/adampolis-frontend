@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ED06020D-A8E7-48A2-BE05-4A5DAC3E19FD</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.145098 0 0 0 0 0.227451 0 0 0 0 0.286275 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="17.-mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="burger-menu-user" transform="translate(-286.000000, -933.000000)">
+            <g id="icons/-logout" transform="translate(0.000000, 919.000000)" filter="url(#filter-1)">
+                <g transform="translate(286.000000, 14.000000)" id="logout-box-r-line">
+                    <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                    <path d="M5,22 C4.44771525,22 4,21.5522847 4,21 L4,3 C4,2.44771525 4.44771525,2 5,2 L19,2 C19.5522847,2 20,2.44771525 20,3 L20,6 L18,6 L18,4 L6,4 L6,20 L18,20 L18,18 L20,18 L20,21 C20,21.5522847 19.5522847,22 19,22 L5,22 Z M18,16 L18,13 L11,13 L11,11 L18,11 L18,8 L23,12 L18,16 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

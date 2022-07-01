@@ -1,0 +1,55 @@
+.card {
+    background-color: $color-white;
+    border-radius: 4px;
+    width: 100%;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 20px;
+        border: 1px solid transparent;
+        border-bottom: 1px solid rgba($color: $color-grey, $alpha: 0.6);
+        color: $color-dark-blue;
+        width: 100%;
+
+        &--no-border {
+            border-bottom: none;
+        }
+
+        @include media-lg {
+            font-size: 16px;
+            padding: 14px 4px 14px 15px ;
+        }
+    }
+
+    &--shadow {
+        box-shadow: $shadow;
+    }
+
+    &--bordered {
+        border: 1px solid rgba($color-grey, 0.6);
+    }
+}
+
+.card-group {
+    .card {
+        border-radius: 0;
+        border-bottom-color: transparent;
+
+        &:first-child {
+            border-radius: 5px 5px 0 0;
+        }
+
+        &:last-child {
+            border-radius: 0 0 5px 5px;
+            border-bottom-color: rgba($color-grey, $alpha: 0.6);
+        }
+    }
+
+    .card:not(:last-child) {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}

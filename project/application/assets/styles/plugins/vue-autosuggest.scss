@@ -1,0 +1,34 @@
+#autosuggest {
+    position: relative;
+    [aria-expanded="false"] + .autosuggest__results-container {
+        display: none;
+    }
+}
+
+.autosuggest {
+    position: relative;
+    &__results-container {
+        position: absolute;
+        top: 46px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        margin-top: 5px;
+        background: $color-white;
+        border: 1px solid $color-light-grey;
+        box-shadow: 0 2px 10px 0 rgba($color-black, 0.1);
+        border-radius: 4px;
+        overflow: auto;
+        max-height: 300px;
+    }
+    &__results-item {
+        display: block;
+        width: 100%;
+        transition: $transition;
+        padding: 12px 10px 11px;
+        cursor: pointer;
+        &--highlighted {
+            background: $color-background;
+        }
+    }
+}

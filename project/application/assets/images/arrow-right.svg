@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2E1A0733-82D3-4037-94E9-739D512DDCA0</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.611765 0 0 0 0 0.650980 0 0 0 0 0.701961 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="2.-Catalog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/-arrow-right" transform="translate(-468.000000, -225.000000)" filter="url(#filter-1)">
+            <g transform="translate(468.000000, 225.000000)" id="arrow-drop-right-line">
+                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="12.172 12 9.343 9.172 10.757 7.757 15 12 10.757 16.243 9.343 14.828"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

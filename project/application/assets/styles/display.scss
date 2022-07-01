@@ -1,0 +1,119 @@
+@import '~/assets/styles/variables.scss';
+
+.d {
+    &-sm {
+        &-flex,
+        &-block,
+        &-inline-block,
+        &-inline {
+            display: none !important;
+        }
+    }
+
+    &-md {
+        &-flex,
+        &-block,
+        &-inline {
+            display: none !important;
+        }
+    }
+
+    &-lg {
+        &-flex,
+        &-block,
+        &-inline-block,
+        &-inline {
+            display: none !important;
+        }
+    }
+
+    &-none {
+        display: none !important;
+    }
+
+    &-flex {
+        display: flex !important;
+    }
+
+    &-block {
+        display: block !important;
+    }
+
+    &-sm {
+        @media (min-width: $breakpoint-sm) {
+            &-block {
+                display: block !important;
+            }
+
+            &-flex {
+                display: flex !important;
+            }
+
+            &-inline-block {
+                display: inline-block !important;
+            }
+
+            &-inline {
+                display: inline !important;
+            }
+
+            &-none {
+                display: none !important;
+            }
+        }
+    }
+
+    &-md {
+        @media (min-width: $breakpoint-md) {
+            &-block {
+                display: block !important;
+            }
+
+            &-flex {
+                display: flex !important;
+            }
+
+            &-inline {
+                display: inline !important;
+            }
+
+            &-none {
+                display: none !important;
+            }
+        }
+    }
+
+    &-lg {
+        @media (min-width: $breakpoint-lg) {
+            &-block {
+                display: block !important;
+            }
+
+            &-flex {
+                display: flex !important;
+            }
+
+            &-inline-block {
+                display: inline-block !important;
+            }
+
+            &-inline {
+                display: inline !important;
+            }
+
+            &-none {
+                display: none !important;
+            }
+        }
+    }
+}
+
+.cell {
+    &-md {
+        @media (max-width: #{$breakpoint-md - 1px}) {
+            &-visible {
+                display: none !important;
+            }
+        }
+    }
+}

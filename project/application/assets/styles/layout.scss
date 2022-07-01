@@ -1,0 +1,57 @@
+@import './variables';
+
+.layout {
+    &__row {
+        margin-left: -#{$grid-gutter / 2};
+        margin-right: -#{$grid-gutter / 2};
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    &__col {
+        padding-left: #{$grid-gutter / 2};
+        padding-right: #{$grid-gutter / 2};
+        flex: 1 1 0;
+    }
+
+    &__mob-row {
+        margin-left: -#{$grid-mob-gutter / 2};
+        margin-right: -#{$grid-mob-gutter / 2};
+    }
+
+    &__mob-col {
+        padding-left: #{$grid-mob-gutter / 2};
+        padding-right: #{$grid-mob-gutter / 2};
+    }
+
+    @each $breakpoint-key, $breakpoint-value in $breakpoint-map {
+        $breakpoint-key-name: '';
+
+        @if ($breakpoint-key != 'xs') {
+            $breakpoint-key-name: '-#{$breakpoint-key}';
+        }
+
+        &#{$breakpoint-key-name} {
+            @media (min-width: $breakpoint-value) {
+                &__row {
+                    margin-left: -#{$grid-gutter / 2};
+                    margin-right: -#{$grid-gutter / 2};
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: flex-start;
+                }
+
+                &__col {
+                    padding-left: #{$grid-gutter / 2};
+                    padding-right: #{$grid-gutter / 2};
+                    flex: 1 1 0;
+
+                    &--6 {
+                        flex: 0 0 50%;
+                    }
+                }
+            }
+        }
+    }
+}

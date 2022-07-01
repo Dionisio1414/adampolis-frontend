@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4CE6461C-25CE-4AFB-9B3A-227E81AC5532</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.286275 0 0 0 0 0.356863 0 0 0 0 0.419608 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1.-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="user-dropdown" transform="translate(-402.000000, -1424.000000)">
+            <g id="icons/-sort" transform="translate(370.000000, 1423.000000)" filter="url(#filter-1)">
+                <g transform="translate(32.000000, 1.000000)" id="sort">
+                    <polygon id="Path" points="0 0 16 0 16 16 0 16"></polygon>
+                    <path d="M12,9.33333333 L8,13.3333333 L4,9.33333333 L12,9.33333333 Z M8,2.66666667 L12,6.66666667 L4,6.66666667 L8,2.66666667 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

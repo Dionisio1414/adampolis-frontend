@@ -1,0 +1,96 @@
+@import '~/assets/styles/variables.scss';
+
+.m-auto {
+    margin: auto !important;
+}
+
+.mt-auto {
+    margin-top: auto !important;
+}
+
+.ml-auto {
+    margin-left: auto !important;
+}
+
+.ml-lg-auto {
+    @media (min-width: $breakpoint-lg) {
+        margin-left: auto !important;
+    }
+}
+
+.mr-auto {
+    margin-right: auto !important;
+}
+
+.mr-md-auto {
+    @media (min-width: $breakpoint-md) {
+        margin-right: auto !important;
+    }
+}
+
+.mb-auto {
+    margin-bottom: auto !important;
+}
+
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+.mb {
+    &-xs {
+        &-80 {
+            @media screen and (min-width: $breakpoint-lg) {
+                margin-bottom: 80px;
+            }
+        }
+        &-40 {
+            @media screen and (min-width: $breakpoint-min) {
+                margin-bottom: 20px;
+            }
+        }
+        &-55 {
+            @media screen and (min-width: $breakpoint-min) {
+                margin-bottom: 27px;
+            }
+        }
+        &-30 {
+            @media screen and (min-width: $breakpoint-lg) {
+                margin-bottom: 15px;
+            }  
+        }
+        &-20 {
+            @media screen and (min-width: $breakpoint-min) {
+                margin-bottom: 10px;
+            } 
+        }
+    }
+    &-lg {
+        &-80 {
+            @media screen and (min-width: $breakpoint-lg) {
+                margin-bottom: 80px;
+            }
+        }
+        &-40 {
+            @media screen and (min-width: $breakpoint-lg) {
+                margin-bottom: 40px;
+            }
+        }
+        &-55 {
+            @media screen and (min-width: $breakpoint-lg) {
+                margin-bottom: 55px;
+            }
+        }
+        &-30 {
+            @media screen and (min-width: $breakpoint-lg) {
+                margin-bottom: 30px;
+            }  
+        }
+        &-20 {
+            @media screen and (min-width: $breakpoint-lg) {
+                margin-bottom: 20px;
+            } 
+        }
+    }   
+}

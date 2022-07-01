@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7A272473-A56C-495D-8538-2336D98DF164</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.611765 0 0 0 0 0.650980 0 0 0 0 0.701961 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="2.-Catalog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="catalog-product-information" transform="translate(-1288.000000, -2373.000000)">
+            <g id="pagination" transform="translate(1280.000000, 2367.000000)">
+                <g id="icons/-arrow-left" transform="translate(8.000000, 6.000000)" filter="url(#filter-1)">
+                    <g id="arrow-drop-left-line">
+                        <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="11.828 12 14.657 14.828 13.243 16.243 9 12 13.243 7.757 14.657 9.172"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

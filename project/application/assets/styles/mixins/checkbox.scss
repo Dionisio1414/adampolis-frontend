@@ -1,0 +1,19 @@
+$icon-size: 16px;
+
+@mixin checkbox-icon {
+    display: block;
+    height: $icon-size;
+    width: $icon-size;
+    border-radius: 2px;
+    background-color: $color-white;
+    background-image: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 1px solid rgba($color-grey, 0.6);
+}
+
+@mixin checkbox-icon-checked {
+    background-color: $color-dark-blue;
+    background-image: url('~@/assets/images/check.svg');
+    border-color: $color-dark-blue;
+}

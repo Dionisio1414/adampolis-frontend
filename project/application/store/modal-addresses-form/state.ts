@@ -1,0 +1,13 @@
+import { EStatus } from '~/constants/status';
+
+export interface IState {
+    status: EStatus;
+    error: Error | null;
+    message: string;
+}
+
+export default (): IState => ({
+    status: EStatus.INIT,
+    error: null,
+    message: ''
+});

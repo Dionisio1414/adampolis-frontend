@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="32px" viewBox="0 0 36 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4217167E-987A-4360-9E32-D23933F1B130</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.796078 0 0 0 0 0.815686 0 0 0 0 0.847059 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1.-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="icons/-quote-up" transform="translate(-380.000000, -2660.000000)" filter="url(#filter-1)">
+            <g transform="translate(380.000000, 2660.000000)" id="quote" fill="#000000" fill-rule="nonzero">
+                <path d="M0,15.9798472 L0,31.9383147 L15.4285966,31.9383147 L15.4285966,15.9798472 L5.14289484,15.9798472 C5.14289484,10.1136465 9.75717211,5.34089912 15.4285966,5.34089912 L15.4285966,0.0213796084 C6.92075623,0.0213796084 0,7.17981837 0,15.9798472 Z" id="Path"></path>
+                <path d="M36,5.34089912 L36,0.0213796084 C27.4921597,0.0213796084 20.5714034,7.17981837 20.5714034,15.9798472 L20.5714034,31.9383147 L36,31.9383147 L36,15.9798472 L25.7142983,15.9798472 C25.7142983,10.1136465 30.3285755,5.34089912 36,5.34089912 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

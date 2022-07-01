@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>D52C3EE4-83DA-403A-94C8-728AD6C49D98</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.733333 0 0 0 0 0.788235 0 0 0 0 0.007843 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="stylesheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/-check-copy" transform="translate(-1485.000000, -1742.000000)" filter="url(#filter-1)">
+            <g transform="translate(1485.000000, 1742.000000)">
+                <polygon id="Path" fill="#000000" points="4.12524306 8 0 3.99952858 1.37475694 2.66635239 4.12524306 5.33364761 9.62427081 0 11 1.33317619"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

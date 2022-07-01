@@ -1,0 +1,15 @@
+@import '~/assets/styles/variables.scss';
+
+.block {
+    background: $color-white;
+    border-radius: 4px;
+
+    &__content {
+        padding: 26px $grid-mob-gutter 23px;
+
+        @media (min-width: $breakpoint-md) {
+            padding-left: $grid-gutter;
+            padding-right: $grid-gutter;
+        }
+    }
+}

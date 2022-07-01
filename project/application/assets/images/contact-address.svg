@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BE7793FD-13CB-49A7-A194-72F075BE331B</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.145098 0 0 0 0 0.227451 0 0 0 0 0.286275 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="11.-About-us" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/-address" transform="translate(-677.000000, -1740.000000)" filter="url(#filter-1)">
+            <g transform="translate(677.000000, 1740.000000)" id="Fuehrungsleitlinien" fill-rule="nonzero">
+                <path d="M16,0 C7.163444,0 -6.31593543e-15,7.163444 -6.31593543e-15,16 C-6.31593543e-15,24.836556 7.163444,32 16,32 C24.836556,32 32,24.836556 32,16 C32,7.163444 24.836556,0 16,0 Z M16,28.4444444 C9.12712311,28.4444444 3.55555556,22.8728769 3.55555556,16 C3.55555556,9.12712311 9.12712311,3.55555556 16,3.55555556 C22.8728769,3.55555556 28.4444444,9.12712311 28.4444444,16 C28.4444444,22.8728769 22.8728769,28.4444444 16,28.4444444 L16,28.4444444 Z" id="Shape" fill="#253A49"></path>
+                <polygon id="Path" fill="#E50145" points="13.4844444 18.5155556 14.7466667 24.8 22.2844444 9.71555556 7.2 17.2533333"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,130 @@
+@import '~/assets/styles/variables.scss';
+
+.form-control.multiselect {
+    border: 1px solid $color-grey;
+    border-radius: 4px;
+    background-color: $color-white;
+    padding: 0;
+    position: relative;
+    font-size: 14px;
+    color: $color-black;
+    transition: color $transition, border $transition, background $transition;
+    cursor: pointer;
+    min-height: 40px;
+    line-height: 18px;
+
+    .multiselect {
+        &__tags {
+            display: flex;
+        }
+
+        &__single,
+        &__placeholder,
+        &__input {
+            padding: 10px 12px;
+            line-height: 18px;
+        }
+
+        &__input {
+            transition: $transition;
+            display: none;
+            border: none;
+            background: none;
+            font-size: 14px;
+            color: $color-black;
+
+            &::placeholder {
+                color: $color-grey;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        &__content {
+            list-style: none;
+            padding: 7px 0;
+            margin: 0;
+            width: 100%;
+        }
+
+        &__content-wrapper {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            margin-top: 5px;
+            background: $color-white;
+            border: 1px solid $color-light-grey;
+            box-shadow: 0 2px 10px 0 rgba($color-black, 0.1);
+            border-radius: 4px;
+            overflow: auto;
+        }
+
+        &__option {
+            display: block;
+            width: 100%;
+            transition: $transition;
+            padding: 12px 10px 11px;
+
+            &--highlight {
+                background: $color-background;
+            }
+
+            &--selected {
+                font-weight: 500;
+                background: $color-background;
+            }
+        }
+
+        &__placeholder {
+            color: $color-grey-placeholder;
+            font-size: 14px;
+            letter-spacing: 0;
+            line-height: 18px;
+        }
+
+        &__select {
+            $size: 24px;
+            position: absolute;
+            top: 50%;
+            right: 5px;
+            width: $size;
+            height: $size;
+            margin-top: -#{$size / 2};
+            background-image: url('../images/arrow-down.svg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            transition: $transition;
+        }
+
+    }
+
+    &--active,
+    &:focus {
+        border-color: $color-dark-grey;
+    }
+
+    &--active {
+        .multiselect__select {
+            transform: rotate(180deg);
+        }
+
+        .multiselect {
+            &__input {
+                display: block;
+            }
+        }
+    }
+
+    &.form-control {
+        &--black-border {
+            &:not(:focus) {
+                border-color: $color-black;
+            }
+        }
+    }
+}

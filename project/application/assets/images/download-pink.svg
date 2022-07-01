@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A5F70BAD-5351-439C-9178-C9A38EBFFABD</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.898039 0 0 0 0 0.003922 0 0 0 0 0.270588 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="7.-Checkout---success" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/-download" transform="translate(-692.000000, -900.000000)" filter="url(#filter-1)">
+            <g transform="translate(692.000000, 900.000000)" id="download-fill">
+                <polygon id="Path" points="0 0 16 0 16 16 0 16"></polygon>
+                <path d="M2,12.6666667 L14,12.6666667 L14,14 L2,14 L2,12.6666667 Z M8.66666667,6 L13.3333333,6 L8,11.3333333 L2.66666667,6 L7.33333333,6 L7.33333333,0.666666667 L8.66666667,0.666666667 L8.66666667,6 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

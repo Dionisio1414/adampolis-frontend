@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>B7265104-790B-4F1D-9B03-B43419F60F1D</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.611765 0 0 0 0 0.650980 0 0 0 0 0.701961 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1.-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="information-dropdown" transform="translate(-1124.000000, -2741.000000)">
+            <g id="Group-3" transform="translate(0.000000, 1996.000000)">
+                <g id="Group-2" transform="translate(0.000000, 441.000000)">
+                    <g id="footer/-desktop" transform="translate(0.000000, 235.000000)">
+                        <g id="icons/-time" transform="translate(970.000000, 69.000000)" filter="url(#filter-1)">
+                            <g transform="translate(154.000000, 0.000000)" id="time-line">
+                                <polygon id="Path" points="0 0 20 0 20 20 0 20"></polygon>
+                                <path d="M10,18.3333333 C5.3975,18.3333333 1.66666667,14.6025 1.66666667,10 C1.66666667,5.3975 5.3975,1.66666667 10,1.66666667 C14.6025,1.66666667 18.3333333,5.3975 18.3333333,10 C18.3333333,14.6025 14.6025,18.3333333 10,18.3333333 Z M10,16.6666667 C13.6818983,16.6666667 16.6666667,13.6818983 16.6666667,10 C16.6666667,6.31810167 13.6818983,3.33333333 10,3.33333333 C6.31810167,3.33333333 3.33333333,6.31810167 3.33333333,10 C3.33333333,13.6818983 6.31810167,16.6666667 10,16.6666667 Z M10.8333333,10 L14.1666667,10 L14.1666667,11.6666667 L9.16666667,11.6666667 L9.16666667,5.83333333 L10.8333333,5.83333333 L10.8333333,10 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

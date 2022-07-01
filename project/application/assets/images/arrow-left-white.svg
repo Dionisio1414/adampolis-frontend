@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="10px" viewBox="0 0 6 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>F56B0179-DA1C-4CA7-B991-80E8498D63E0</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="4.-Cart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cart" transform="translate(-410.000000, -821.000000)">
+            <g id="icons/-arrow-left" transform="translate(390.000000, 806.000000)" filter="url(#filter-1)">
+                <g transform="translate(20.000000, 15.757000)" id="arrow-drop-left-line" fill="#000000" fill-rule="nonzero">
+                    <polygon id="Path" points="2.828 4.243 5.657 7.071 4.243 8.486 0 4.243 4.243 0 5.657 1.415"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

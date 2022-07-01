@@ -1,0 +1,39 @@
+.badge {
+    border-radius: 4px;
+    width: max-content;
+    padding: 2px;
+    cursor: pointer;
+    
+    &--originals {
+        background: $color-accent-orange;
+        font-size: 12px;
+        border-radius: 4px;
+        padding: 3px 10px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 15px;
+    }
+
+    &--analogs {
+        @extend .badge--originals;
+        background: $color-dark-grey;
+    }
+
+    &--waranty {
+        background: $color-accent-green;
+        border-radius: 4px;
+        width: 24px;
+        height: 24px;
+    }
+
+    &--sale {
+        background: $color-pink;
+        width: 24px;
+        height: 24px;
+    }
+
+    &--brand {
+        width: max-content;
+        max-width: 90px;
+    }
+}

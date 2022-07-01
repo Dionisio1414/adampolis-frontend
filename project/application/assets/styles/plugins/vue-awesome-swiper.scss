@@ -1,0 +1,78 @@
+@import '../variables';
+
+.swiper {
+    &-scrollbar {
+        background: none;
+
+        &-drag {
+            background: rgba($color-black, 0.15);
+        }
+    }
+
+    &-container {
+        &-horizontal {
+            > .swiper {
+                &-scrollbar {
+                    position: static;
+                    margin-top: 8px;
+                    height: 3px;
+                }
+            }
+        }
+    }
+
+    &-pagination {
+        position: static;
+        z-index: 1;
+
+        &-bullet {
+            transition: $transition;
+            opacity: 1;
+            background: $color-light-grey;
+            margin: 0 4px;
+
+            &-active {
+                background: $color-black;
+            }
+        }
+    }
+
+    &-arrow {
+        $size: 60px;
+        position: absolute;
+        top: calc(50% + 12px);
+        transform: translateY(-78%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: $size;
+        height: $size;
+        font-size: 16px;
+        z-index: 5;
+        height: 40px;
+        width: 40px;
+        border-radius: 4px;
+        background-color: $color-white;
+        box-shadow: 0 2px 5px 0 rgba($color-black, 0.15);
+
+        &--prev {
+            @extend .swiper-arrow;
+            left: -82px;
+        }
+
+        &--next {
+            @extend .swiper-arrow;
+            right: -82px;
+        }
+
+        @media (min-width: $container-width + $size) {
+            &--prev {
+                left: -82px;
+            }
+
+            &--next {
+                right: -82px;
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+@import '~/assets/styles/variables.scss';
+
+$width-properties: (
+    'min': 'min-width',
+    'max': 'max-width',
+    'width': 'width',
+);
+
+$widths: (
+    'xs': (
+        'min': (
+            74,
+            81,
+            99,
+            114,
+            115,
+            122,
+            130,
+            136,
+            138,
+            160,
+            163,
+            173,
+            204,
+            214,
+            220,
+            232,
+            250,
+            768,
+        ),
+        'max': (
+            150,
+            200,
+            250,
+        ),
+        'width': (
+            140,
+            233,
+            160,
+            164,
+            193,
+            233,
+        ),
+    ),
+    'sm': (
+        'min': (
+            95,
+            220,
+        ),
+        'width': (
+            96,
+            140,
+            160,
+            193,
+        ),
+    ),
+    'md': (
+        'min': (
+            233,
+            252,
+        ),
+        'width': (
+            140,
+        ),
+    ),
+);
+
+.width {
+    &--100p {
+        width: 100% !important;
+    }
+
+    &--50p {
+        width: 50% !important;
+    }
+
+    &--33-3p {
+        width: 33.3% !important;
+    }
+
+    @media (min-width: $breakpoint-sm) {
+        &--sm {
+            &-auto {
+                width: auto !important;
+            }
+        }
+    }
+
+    @media (min-width: $breakpoint-md) {
+        &--md {
+            &-auto {
+                width: auto !important;
+            }
+        }
+    }
+
+    @media (min-width: $breakpoint-lg) {
+        &--lg {
+            &-auto {
+                width: auto !important;
+            }
+
+            &-max {
+                &-none {
+                    max-width: none !important;
+                }
+            }
+        }
+    }
+
+    @each $breakpoint, $width-map in $widths {
+        $breakpoint-key: '';
+        $breakpoint-value: map-get($breakpoint-map, $key: $breakpoint);
+
+        @if ($breakpoint == 'xs') {
+            $breakpoint-key: '';
+        } @else {
+            $breakpoint-key: '-#{$breakpoint}';
+        }
+
+        &#{$breakpoint-key} {
+            @each $prop-key, $prop-name in $width-properties {
+                $prop-values: map-get(
+                    $map: $width-map,
+                    $key: $prop-key,
+                );
+
+                @if ($prop-values) {
+                    @each $prop-value in $prop-values {
+                        $prop-key-name: '';
+
+                        @if $prop-key == 'width' {
+                            $prop-key-name: '';
+                        } @else {
+                            $prop-key-name: '-#{$prop-key}';
+                        }
+
+                        &#{$prop-key-name} {
+                            &-#{$prop-value} {
+                                $prop-output: #{$prop-value * 1px} !important;
+
+                                @if $breakpoint-value {
+                                    @media (min-width: $breakpoint-value) {
+                                        #{$prop-name}: $prop-output;
+                                    }
+                                } @else {
+                                    #{$prop-name}: $prop-output;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
